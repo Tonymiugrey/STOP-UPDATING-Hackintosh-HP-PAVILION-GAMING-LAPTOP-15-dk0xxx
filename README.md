@@ -1,8 +1,13 @@
 # 惠普光影5黑苹果 10.14 mojave
 算是比较完美的efi了吧
 
-pm981暂时屏蔽，不过好像已经有解决方法了http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1814806&mobile=yes
-可以先把mac安装在自购的固态或者机械里
+关于pm981这块无解的固态：
+
+首先你的电脑要有两块硬盘，把mac安装在自购的固态或者机械里 安装时 U盘里的efi请使用Clover1，硬盘里的efi用Clover2
+
+Clover1包含屏蔽pm981的补丁，避免安装出错；Clover2不包含屏蔽补丁，避免发热，进去系统后需要右键把pm981上的分区推出
+
+不过pm981好像已经有解决方法了http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1814806
 
 目前核显 触控板 屏幕背光亮度均可用
 
@@ -16,9 +21,8 @@ pm981暂时屏蔽，不过好像已经有解决方法了http://bbs.pcbeta.com/fo
 
 欢迎各位找出不完善之处
 
-感觉。。蛮烫的 比Windows下烫很多。。。
+感觉。。蛮烫的 比Windows下烫很多。。。（已解决）
 
 顺便贴一下我的配置
 
-i5 9300H  16GB双通道 512G+1T GTX165h（N卡在mojave中无解）
-
+i5 9300H  16GB双通道 512G+1T GTX1650（N卡在mojave中无解）
