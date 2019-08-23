@@ -5,7 +5,7 @@
 
 首先你的电脑要有两块硬盘(也可直接将PM981替换)，把mac安装在自购的固态或者机械里 安装时 U盘里的efi请使用Clover1，硬盘里的efi用Clover2
 Fristly your computer should have two hard disk and install the OS into your second hard disk.You can also replace the PM981.
-When you are ready to install,please go to the  page and read the notice.
+When you are ready to install,please go to the RELEASE page and read the notice.
 
 Clover1包含屏蔽pm981的补丁，避免安装出错；Clover2不包含屏蔽补丁，避免发热，进去系统后需要右键把pm981上的分区推出
 
