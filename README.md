@@ -1,4 +1,4 @@
-# 惠普光影5黑苹果 10.14 mojave  Hackintosh for HP GAMING PAVILION 15(2019 WITH 9TH GERERATION INTEL CORE I5/I7 PROCESSER)
+# 惠普光影5黑苹果 10.14 mojave  Hackintosh for HP PAVILION GAMING LAPTOP 15-dk0xxx(2019 WITH 9TH GERERATION INTEL CORE I5/I7 PROCESSER)
 算是比较完美的efi了吧    Maybe it's the almost-perfect efi for this laptop.
 
 关于pm981这块无解的固态：    About the SSD PM982
