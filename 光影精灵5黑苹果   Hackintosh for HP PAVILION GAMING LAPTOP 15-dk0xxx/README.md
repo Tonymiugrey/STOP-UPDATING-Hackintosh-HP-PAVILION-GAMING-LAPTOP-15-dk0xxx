@@ -1,29 +1,29 @@
-# »İÆÕ¹âÓ°5ºÚÆ»¹û 10.14 mojave  Hackintosh for HP PAVILION GAMING LAPTOP 15-dk0xxx(2019 WITH 9TH GERERATION INTEL CORE I5/I7 PROCESSER)
-ËãÊÇ±È½ÏÍêÃÀµÄefiÁË°É    Maybe it's the almost-perfect efi for this laptop.
+# æƒ æ™®å…‰å½±5é»‘è‹¹æœ 10.14 mojave  Hackintosh for HP PAVILION GAMING LAPTOP 15-dk0xxx(2019 WITH 9TH GERERATION INTEL CORE I5/I7 PROCESSER)
+ç®—æ˜¯æ¯”è¾ƒå®Œç¾çš„efiäº†å§    Maybe it's the almost-perfect efi for this laptop.
 
-¹ØÓÚpm981Õâ¿éÎŞ½âµÄ¹ÌÌ¬£º    About the SSD PM981
+å…³äºpm981è¿™å—æ— è§£çš„å›ºæ€ï¼š    About the SSD PM981
 
-Ê×ÏÈÄãµÄµçÄÔÒªÓĞÁ½¿éÓ²ÅÌ(Ò²¿ÉÖ±½Ó½«PM981Ìæ»»)£¬°Ñmac°²×°ÔÚ×Ô¹ºµÄ¹ÌÌ¬»òÕß»úĞµÀï °²×°Ê± UÅÌÀïµÄefiÇëÊ¹ÓÃClover1£¬Ó²ÅÌÀïµÄefiÓÃClover2
+é¦–å…ˆä½ çš„ç”µè„‘è¦æœ‰ä¸¤å—ç¡¬ç›˜(ä¹Ÿå¯ç›´æ¥å°†PM981æ›¿æ¢)ï¼ŒæŠŠmacå®‰è£…åœ¨è‡ªè´­çš„å›ºæ€æˆ–è€…æœºæ¢°é‡Œ å®‰è£…æ—¶ Uç›˜é‡Œçš„efiè¯·ä½¿ç”¨Clover1ï¼Œç¡¬ç›˜é‡Œçš„efiç”¨Clover2
 Fristly your computer should have two hard disk and install the OS into your second hard disk.You can also replace the PM981.
 When you are ready to install,please go to the RELEASE page and read the notice.
 
-Clover1°üº¬ÆÁ±Îpm981µÄ²¹¶¡£¬±ÜÃâ°²×°³ö´í£»Clover2²»°üº¬ÆÁ±Î²¹¶¡£¬±ÜÃâ·¢ÈÈ£¬½øÈ¥ÏµÍ³ºóĞèÒªÓÒ¼ü°Ñpm981ÉÏµÄ·ÖÇøÍÆ³ö
+Clover1åŒ…å«å±è”½pm981çš„è¡¥ä¸ï¼Œé¿å…å®‰è£…å‡ºé”™ï¼›Clover2ä¸åŒ…å«å±è”½è¡¥ä¸ï¼Œé¿å…å‘çƒ­ï¼Œè¿›å»ç³»ç»Ÿåéœ€è¦å³é”®æŠŠpm981ä¸Šçš„åˆ†åŒºæ¨å‡º
 
-²»¹ıpm981ºÃÏñÒÑ¾­ÓĞ½â¾ö·½·¨ÁËhttp://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1814806  Here's a possible solution about the PM981
+ä¸è¿‡pm981å¥½åƒå·²ç»æœ‰è§£å†³æ–¹æ³•äº†http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1814806  Here's a possible solution about the PM981
 
-Ä¿Ç°ºËÏÔ ´¥¿Ø°å ÆÁÄ»±³¹âÁÁ¶È¾ù¿ÉÓÃ  Intel Graphics,touch pad and the backlight are OK.
+ç›®å‰æ ¸æ˜¾ è§¦æ§æ¿ å±å¹•èƒŒå…‰äº®åº¦å‡å¯ç”¨  Intel Graphics,touch pad and the backlight are OK.
 
-ÉùÒôËÆºõ»¹ÓĞĞ©ÎÊÌâ Éù¿¨Ê±²»Ê±»á²»¼û ÓĞÊ±ºòË¯Ãß»½ĞÑºó»áÃ»ÉùÒô  There're still some problems about sounds...Sometimes it may disappear...You can restart your computer to fix it.
+å£°éŸ³ä¼¼ä¹è¿˜æœ‰äº›é—®é¢˜ å£°å¡æ—¶ä¸æ—¶ä¼šä¸è§ æœ‰æ—¶å€™ç¡çœ å”¤é†’åä¼šæ²¡å£°éŸ³  There're still some problems about sounds...Sometimes it may disappear...You can restart your computer to fix it.
 
-ÏëÓÃApp StoreµÄÍ¬Ñ§×ÔĞĞĞŞ¸Ä»úĞÍĞòÁĞºÅ  Change to serial No. by yourself if you want to use App Store and more Apple services.
+æƒ³ç”¨App Storeçš„åŒå­¦è‡ªè¡Œä¿®æ”¹æœºå‹åºåˆ—å·  Change the serial No. by yourself if you want to use App Store and more Apple services.
 
-À¶ÑÀºÍÉãÏñÍ·Ò²??£¬À¶ÑÀ¿ª¹ØºÃÏñÊÇÊÜWindows¿ØÖÆ macÀï²»ÄÜÖ±½Ó¿ª¹Ø  Bluetooth and camara are OK,but the Bluetooth can't be closed in macOS.
+è“ç‰™å’Œæ‘„åƒå¤´ä¹ŸğŸ‰‘ï¼Œè“ç‰™å¼€å…³å¥½åƒæ˜¯å—Windowsæ§åˆ¶ macé‡Œä¸èƒ½ç›´æ¥å¼€å…³  Bluetooth and camara are OK,but the Bluetooth can't be closed in macOS.
 
-ÓĞÏßÍø¿¨ÄÜÓÃ£¬WIFIĞèÒª×ÔĞĞ¸ü»»Ä£¿é»òÕßÂò¸öusbÍø¿¨  You can connect to Internet thourgh you Ethernet cable,buy a Broadcom 
+æœ‰çº¿ç½‘å¡èƒ½ç”¨ï¼ŒWIFIéœ€è¦è‡ªè¡Œæ›´æ¢æ¨¡å—æˆ–è€…ä¹°ä¸ªusbç½‘å¡  You can connect to Internet thourgh you Ethernet cable,buy a Broadcom 
 WiFi adapter or USB WiFi adapter
 
-»¶Ó­¸÷Î»ÕÒ³ö²»ÍêÉÆÖ®´¦ I will appreciate if you can find and fix more bugs.
+æ¬¢è¿å„ä½æ‰¾å‡ºä¸å®Œå–„ä¹‹å¤„ I will appreciate if you can find and fix more bugs.
 
-Ë³±ãÌùÒ»ÏÂÎÒµÄÅäÖÃ
+é¡ºä¾¿è´´ä¸€ä¸‹æˆ‘çš„é…ç½®
 
-i5 9300H  16GBË«Í¨µÀ 512G+1T GTX1650£¨N¿¨ÔÚmojaveÖĞÎŞ½â£©
+i5 9300H  16GBåŒé€šé“ 512G+1T GTX1650ï¼ˆNå¡åœ¨mojaveä¸­æ— è§£ï¼‰
