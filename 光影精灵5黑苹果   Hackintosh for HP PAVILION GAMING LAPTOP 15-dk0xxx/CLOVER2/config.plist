@@ -212,6 +212,8 @@
 					</data>
 				</dict>
 			</array>
+			<key>SlpSmiAtWake</key>
+			<true/>
 		</dict>
 		<key>FixHeaders</key>
 		<true/>
@@ -223,13 +225,21 @@
 			<false/>
 			<key>Generate</key>
 			<dict>
+				<key>APLF</key>
+				<false/>
 				<key>CStates</key>
-				<false/>
+				<true/>
 				<key>PStates</key>
-				<false/>
+				<true/>
 				<key>PluginType</key>
 				<false/>
 			</dict>
+			<key>PluginType</key>
+			<string>1</string>
+			<key>UnderVoltStep</key>
+			<string>2</string>
+			<key>UseSystemIO</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -261,6 +271,8 @@
 	<dict>
 		<key>HWPEnable</key>
 		<false/>
+		<key>QEMU</key>
+		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -269,7 +281,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>11</integer>
+			<integer>31</integer>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -277,20 +289,16 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
-				<key>device-id</key>
-				<data>
-				cKEAAA==
-				</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>
-				CwAAAA==
+				HwAAAA==
 				</data>
 				<key>model</key>
-				<string>Sunrise Point-LP HD Audio</string>
+				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -330,9 +338,13 @@
 				<data>
 				/////w==
 				</data>
+				<key>framebuffer-cursormem</key>
+				<data>
+				AAAAAw==
+				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
-				AACQAA==
+				AAAAAw==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
@@ -348,7 +360,7 @@
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
-				AAAAgA==
+				AAAAwA==
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
@@ -361,6 +373,8 @@
 			<key>AddClockID</key>
 			<true/>
 			<key>FixOwnership</key>
+			<true/>
+			<key>HighCurrent</key>
 			<true/>
 			<key>Inject</key>
 			<true/>
@@ -424,7 +438,7 @@
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
