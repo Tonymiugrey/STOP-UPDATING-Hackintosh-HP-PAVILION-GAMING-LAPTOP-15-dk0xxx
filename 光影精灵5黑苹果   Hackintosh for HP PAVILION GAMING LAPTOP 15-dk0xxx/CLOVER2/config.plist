@@ -365,7 +365,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel UHD Graphics 630 (Mobile)</string>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>USB</key>
