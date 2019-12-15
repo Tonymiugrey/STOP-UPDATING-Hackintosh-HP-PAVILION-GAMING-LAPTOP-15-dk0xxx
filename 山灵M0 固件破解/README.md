@@ -4,4 +4,4 @@
 
 视频教程已上传
 
-bilibili链接：（审核中）
+Bilibili：https://www.bilibili.com/video/av65235478

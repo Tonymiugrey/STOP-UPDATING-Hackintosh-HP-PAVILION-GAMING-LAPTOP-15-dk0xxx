@@ -10,6 +10,8 @@
 		<dict>
 			<key>Fixes</key>
 			<dict>
+				<key>FixDisplay</key>
+				<true/>
 				<key>FixHPET</key>
 				<true/>
 				<key>FixIPIC</key>
@@ -20,7 +22,11 @@
 				<true/>
 				<key>FixRegions</key>
 				<true/>
+				<key>FixSBUS</key>
+				<true/>
 				<key>FixTMR</key>
+				<true/>
+				<key>FixUSB</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
@@ -237,10 +243,12 @@
 			<key>PluginType</key>
 			<string>1</string>
 			<key>UnderVoltStep</key>
-			<string>2</string>
+			<string>5</string>
 			<key>UseSystemIO</key>
 			<false/>
 		</dict>
+		<key>smartUPS</key>
+		<true/>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -389,6 +397,8 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
+		<key>Language</key>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -408,7 +418,7 @@
 		<key>TextOnly</key>
 		<false/>
 		<key>Theme</key>
-		<string>Mojave</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -526,17 +536,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/22/2019</string>
+		<string>07/26/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP151.88Z.F000.B00.1809280842</string>
+		<string>MBP152.88Z.F000.B00.1907261958</string>
 		<key>Board-ID</key>
-		<string>Mac-937A206F2EE63C01</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02825401GUJP4FJC</string>
+		<string>C02845902GUJH4R1H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -548,7 +558,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.260.170.0.0</string>
+		<string>1037.0.39.151.1</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -559,23 +569,18 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Channels</key>
-			<integer>2</integer>
-		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,1</string>
+		<string>MacBookPro15,2</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02WW9YXKGYG</string>
+		<string>C02XM0VGJHCD</string>
 		<key>SmUUID</key>
-		<string>BA4A7A8E-CF50-4BBE-83D9-35F0A4ED9427</string>
+		<string>282D4086-4028-4953-98B0-8F88880AB26D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
