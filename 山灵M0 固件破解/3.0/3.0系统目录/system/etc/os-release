@@ -1,0 +1,5 @@
+NAME=Buildroot
+VERSION=2014.05-00055-g03a0bb5
+ID=buildroot
+VERSION_ID=2014.05
+PRETTY_NAME="Buildroot 2014.05"
