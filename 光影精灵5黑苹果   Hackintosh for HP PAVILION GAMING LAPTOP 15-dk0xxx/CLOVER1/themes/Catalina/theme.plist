@@ -31,7 +31,7 @@
 		<key>Banner</key>
 		<string>logo.png</string>
 		<key>BootCampStyle</key>
-		<false/>
+		<true/>
 		<key>Components</key>
 		<dict>
 			<key>Banner</key>
@@ -70,7 +70,7 @@
 		<key>Selection</key>
 		<dict>
 			<key>Big</key>
-			<string>Selection_big.png</string>
+			<string>selection_big.png</string>
 			<key>ChangeNonSelectedGrey</key>
 			<false/>
 			<key>Color</key>
@@ -78,7 +78,7 @@
 			<key>OnTop</key>
 			<true/>
 			<key>Small</key>
-			<string>Selection_small.png</string>
+			<string>selection_small.png</string>
 		</dict>
 	</dict>
 	<key>Version</key>
