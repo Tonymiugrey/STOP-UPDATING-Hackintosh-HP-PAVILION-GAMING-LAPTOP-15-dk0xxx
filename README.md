@@ -2,9 +2,9 @@
 
 [中文版戳这里](https://github.com/Tonymiugrey/Garden-by-miugrey/blob/master/README.md)
 
-#### <u>**3.0 RELEASED!**</u>
+#### <u>**3.1 RELEASED!**</u>
 
-This update fix the poor battery life, **but if you use battery after sleep, it will be poor again...** I'm asking his question in Tonymacx86 these days.
+This update fix the poor battery life TOTALLY!
 
 Go to Release page for more information about this update.
 
@@ -18,9 +18,7 @@ If this is the first time you try to install Hackintosh, please prepare well for
 
 1. Sometimes the volume may not work. Restart and it wil work. If nothing happens after reboot, please reboot again...😅
 
-2. Poor battary life after sleep.
-
-3. Sometimes the temperature of SSD (PM981) will be high.
+2. Sometimes the temperature of SSD (PM981) will be high.
 
 #### About PM981
 
