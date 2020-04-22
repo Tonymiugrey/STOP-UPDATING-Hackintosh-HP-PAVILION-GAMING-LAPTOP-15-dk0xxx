@@ -1,6 +1,6 @@
 # **Hackintosh 10.15 Catalina for HP PAVILION GAMING LAPTOP 15-dk0xxx(2019 WITH 9TH GERERATION INTEL CORE I5/I7 PROCESSER)**
 
-[中文版戳这里](https://github.com/Tonymiugrey/Garden-by-miugrey/blob/master/README.md)
+[中文版戳这里](https://github.com/Tonymiugrey/Garden-by-miugrey/blob/master/README_CN.md)
 
 #### <u>**3.1 RELEASED!**</u>
 
