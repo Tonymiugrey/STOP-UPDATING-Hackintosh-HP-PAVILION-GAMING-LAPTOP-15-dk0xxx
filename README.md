@@ -24,7 +24,7 @@ If this is the first time you try to install Hackintosh, please prepare well for
 
 In China, most of this laptop is using PM981. You know, intalling Hackintosh in this SSD is not easy.  I heard that in other countries, this device is using other SSD... So the first thing you need to do is cheking the model of SSD and choose the correct EFI for your device. If you are using the model with PM981, please follow this introduction. If not, use the "CLOVER FOR OTHER SSD" as your EFI and jump to the **"After Installtion"** part.
 
-~~**If your computer is using PM981, the first thing you need to do is prepare another hard driver (SSD or HDD) in the SATA connector, or exteral HD. If it's hard for you, please buy a new SSD to replace it or give it up...**~~
+**If your computer is using PM981, the first thing you need to do is prepare another hard driver (SSD or HDD) in the SATA connector, or exteral HD.(Don't prepare a PM981 again) If it's hard for you, please buy a new SSD to replace it or give it up...**
 
 > #### **w2016561536 gives a new way to deal with "the other hard driver" that required before. Now it's probably no need to prepare another HD and the complex backup & restore.**
 >
@@ -52,7 +52,7 @@ The old method:
 
 1. Create a USB disk to install macOS and replace the original EFI with CLOVER1 folder.
 
-2. Install it.
+2. Install it on the other disk that you have prepared.
 
 3. After installation, **DON'T BOOT INTO MACOS!!** Back to Windows and install the **Paragon Hard Disk Manager™ 16**. Backup the partition that you intalled the macOS and then create a new partition 
 
