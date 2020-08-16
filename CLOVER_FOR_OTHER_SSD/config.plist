@@ -332,6 +332,11 @@
 			<key>UseSystemIO</key>
 			<false/>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-pav15.aml</string>
+			<string>SSDT-UIAC.aml</string>
+		</array>
 		<key>smartUPS</key>
 		<false/>
 	</dict>
@@ -655,17 +660,17 @@ com.apple.iokit.IOUSBHostFamily</string>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>03/07/2020</string>
+		<string>05/13/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP161.88Z.F000.B00.2003070323</string>
+		<string>MBP161.88Z.F000.B00.2005132259</string>
 		<key>Board-ID</key>
 		<string>Mac-E1008331FDC96864</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02032902CDN9PR1H</string>
+		<string>C02930902QXN9PRCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -677,7 +682,7 @@ com.apple.iokit.IOUSBHostFamily</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.100.355.0.0</string>
+		<string>1037.120.87.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -691,22 +696,20 @@ com.apple.iokit.IOUSBHostFamily</string>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0x32</string>
 		<key>ProductName</key>
 		<string>MacBookPro16,1</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02D60QVMD6N</string>
+		<string>C02Z40GXMD6N</string>
 		<key>SmUUID</key>
-		<string>22FF8367-8FA2-4AA5-BBD2-4D29A56D7FD4</string>
+		<string>FA51961B-4FCE-45E8-B040-02640A32EEF5</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>8804E7FC-D90B-4B86-8AD7-2AF567BB8C40</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>
