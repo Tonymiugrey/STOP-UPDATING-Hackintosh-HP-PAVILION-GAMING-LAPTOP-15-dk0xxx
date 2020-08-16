@@ -2,19 +2,48 @@
 
 [Eng. version](https://github.com/Tonymiugrey/Garden-by-miugrey/blob/master/README_ENG.md)
 
-#### <u>**3.1 RELEASED!**</u>
+#### <u>**3.1.1 RELEASED!**</u>
 
 本次更新完美修复了耗电问题！
 
 新增触控板模拟Force Touch，按下触控板相当于白果上的用力按压触控板。如果不习惯可以去设置里面关掉用力点按。
 
+USB 3.0可以用了（听说部分机子可能不能用，自己试试）
+
+支持英特尔无线网卡。需要安装[HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases)。这玩意儿还是有点不太稳定，如果不想用就去clover文件夹里吧itlwm.kext删了。
+
 具体更新内容在Release页面
 
 **仅仅适用于10.15.x，如果想安装10.14，去release里下载1.x的版本。但是我不会更新旧版本的efi了，遇到问题自行解决。**
 
+------
+
+#### **4.0 Beta (OpenCore version for Catalina and Big Sur)**
+
+如果想尝试的话就直接在repo里面下载吧 还是有些问题的
+
+**不正常的东西：**
+
+睡眠唤醒（在非PM981的设备上似乎可以正常睡眠唤醒）
+
+CPU频率不太正常（Intel Power Gadget里面的AV曲线没有跟着REQ走，而是自己在乱跳，不过功耗是正常的。CPUFriend似乎没有工作。）
+
+Command和alt的键位还没对调，下个Beta版会修复的。
+
+不能用OC启动Windows
+
+。。。
+
+**换了这个EFI之后记得重建缓存！**
+
+------
+
 #### **!!!安装前必读！**
 
 如果这是你第一次尝试安装黑苹果，请先在黑果小兵、远景论坛等网站弄清楚安装流程和需要的准备。英文较好的同学建议直接上Tonymacx86或insanlymac论坛。如果是连windows都不会装小白，或是懒得研究的小白，不建议安装。**”该怎么安装“之类的邮件不予回复。**
+
+**HDMI不能用！！这部机子的HDMI端口是接在独显上的，众所周知macOS不支持N卡，所以无解。想用外接屏的可以试试[这个](https://github.com/Tonymiugrey/Garden-by-miugrey/issues/20#issuecomment-653767111)**，用USB转VGA的线。（有种说法是typeC转DP也行，还没试过。typeC转HDMI的方法经过测试是无效的。）
+
 这里引用一下“苏逸爱科技之黑苹果”qq群中的群公告：
 
 > *“蓝奏云链接密码：苏逸科技*
@@ -164,7 +193,7 @@ sh -c "$(curl -fsSL https://html.sqlsec.com/hidpi.sh)"
 
 
 
-输入1472x828，回车
+输入1472x828，回车（如果重启后使用一段时间，出现闪屏花屏的状况的话，回到这里，分辨率选择第二个选项，1920x1080修复屏幕缩小问题的那个）
 
 <img src="./img/image-20200406124358629.png" alt="image-20200406124358629" style="zoom:50%;" />
 

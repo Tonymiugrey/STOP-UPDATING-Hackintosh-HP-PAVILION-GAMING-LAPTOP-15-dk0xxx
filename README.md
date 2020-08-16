@@ -2,17 +2,47 @@
 
 [中文版戳这里](https://github.com/Tonymiugrey/Garden-by-miugrey/blob/master/README_CN.md)
 
-#### <u>**3.1 RELEASED!**</u>
+#### <u>**3.1.1 (Clover version) RELEASED!**</u>
 
 This update fix the poor battery life TOTALLY!
+
+USB 3.0 now is available (may not work on some devices sold in other countries, I only test it on the one sold in China...)
+
+Added the itlwm to support the Intel WiFi. You need to install [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases) to use it. **(It still unstable in some times and you can disable the kext if you don't like it.)**
+
+Some other little changes...
 
 Go to Release page for more information about this update.
 
 **<u>This EFI is only for 10.15.x.</u> If you want to install 10.14 in your laptop, please go to Release page and download the 1.x version. There are some problems but I will no longer update this outdated EFI, so you need to fix them by yourself. **
 
-#### **!!! IMPORTANT !!!**
+------
+
+#### 4.0 Beta (OpenCore version for Catalina and Big Sur)
+
+You may download it on the repo and test if you can accept the buggy beta version.
+
+**Things do not work:** 
+
+Sleep (May work normally on the device that not use PM981)
+
+CPU frequency (the AVG curve doesn't follow the REQ curve in Intel Power Gadget and CPUFriend doesn't work...)
+
+Command and Alt key are reverse. Will fix in next beta.
+
+Can't boot Windows through OC.
+
+...
+
+**Remember to rebuild kext cache after you use this EFI.**
+
+------
+
+**!!! IMPORTANT !!!**
 
 If this is the first time you try to install Hackintosh, please prepare well for some basic knowledge, such as some concept about Hackintosh and the installation of it. Better to go to some forms like tonymacx86 or insanelymac for more information and helps.
+
+**HDMI IS UNAVAILABLE BECAUSE THE HDMI OF THIS DEVICE IS CONNECT TO NVIDIA GRAPHICS CARD AND WE CAN NOT MAKE NVIDIA GRAPHICS CARD WORK ON MACOS.** If you want to connect the external screen, try [this](https://github.com/Tonymiugrey/Garden-by-miugrey/issues/20#issuecomment-653767111)
 
 #### **PROBLEMS**
 
@@ -156,7 +186,7 @@ Choose option 3
 
 <img src="./img/image-20200406124219540-6196072.png" alt="image-20200406124219540" style="zoom:50%;" />
 
-Then option 6, and enter "1472x828".
+Then option 6, and enter "1472x828". (If your screen glitch after enable the HIDPI with this solution, please run this script again and choose option 2 in this step.)
 
 <img src="./img/image-20200406124358629-6196075.png" alt="image-20200406124358629" style="zoom:50%;" />
 
