@@ -12,6 +12,8 @@ USB 3.0可以用了（听说部分机子可能不能用，自己试试）
 
 支持英特尔无线网卡。需要安装[HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases)。这玩意儿还是有点不太稳定，如果不想用就去clover文件夹里吧itlwm.kext删了。
 
+优化性能调度
+
 具体更新内容在Release页面
 
 **仅仅适用于10.15.x，如果想安装10.14，去release里下载1.x的版本。但是我不会更新旧版本的efi了，遇到问题自行解决。**
@@ -21,6 +23,10 @@ USB 3.0可以用了（听说部分机子可能不能用，自己试试）
 #### **4.0 Beta (OpenCore version for Catalina and Big Sur)**
 
 如果想尝试的话就直接在repo里面下载吧 还是有些问题的
+
+还没装上系统的同学别用这个 先用clover版本
+
+这个版本是为使用PM981的设备做的。如果你的设备使用的是其他SSD，可能需要自行修改部分文件。
 
 **不正常的东西：**
 

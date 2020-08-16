@@ -10,6 +10,8 @@ USB 3.0 now is available (may not work on some devices sold in other countries, 
 
 Added the itlwm to support the Intel WiFi. You need to install [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases) to use it. **(It still unstable in some times and you can disable the kext if you don't like it.)**
 
+Better performance schedule.
+
 Some other little changes...
 
 Go to Release page for more information about this update.
@@ -21,6 +23,10 @@ Go to Release page for more information about this update.
 #### 4.0 Beta (OpenCore version for Catalina and Big Sur)
 
 You may download it on the repo and test if you can accept the buggy beta version.
+
+If you have not install macOS, please choose the Clover version.
+
+Just for the device using PM981. If your device are the model with other SDD but not PM981, you need to modified something by yourself. 
 
 **Things do not work:** 
 
